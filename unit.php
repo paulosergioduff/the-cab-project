@@ -2,9 +2,9 @@
 
 require 'vendor/autoload.php';
 
-use \Diretorio1\Apelido as trocaDeNome;
+use \Entiny\User as trocaDeNome;
 
-$bar = new \Diretorio1\Exemplo;
+$bar = new \Entiny\Product;
 $apelido = new trocaDeNome();
 
 $bar->teste();

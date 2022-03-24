@@ -1,13 +1,13 @@
 <?php 
 
-namespace Diretorio1;
+namespace Entiny;
 
-class Apelido {
+class Product {
 	public function __toString() {
 		return get_class($this);
 	}
 
 	public function teste(){
-		echo "<p>.....Classe apelido teste";
+		echo "<p>.....Classe product apelido teste";
 	}
 }
