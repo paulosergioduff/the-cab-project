@@ -3,9 +3,10 @@
 namespace Entiny;
 
 class Product {
-	public function __toString() {
-		return get_class($this);
-	}
+	public $id;
+	public $name;
+	public $price;
+	public $number;
 
 	public function teste(){
 		echo "<p>.....Classe product apelido teste";
